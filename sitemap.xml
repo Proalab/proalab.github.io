@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>
+            https://proalab.com
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://proalab.com/policies/basic-privacy.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://proalab.com/policies/highwayweather-privacy.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://proalab.com/policies/highwayweather-terms.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://proalab.com/policies/weatheralerts-privacy.html
+        </loc>
+    </url>
+    <url>
+        <loc>
+            https://proalab.com/policies/weatheralerts-terms.html
+        </loc>
+    </url>
+</urlset>
