@@ -171,29 +171,20 @@
         </div>
     </main>
 
+<!-- Chatwoot: Proalab → Proalab Website (chat.proalab.com). Widget colour, greeting and hours are set in the inbox settings. -->
 <script>
-    window.ChatraSetup = {
-        colors: {
-            buttonText: '#f0f0f0', /* цвет текста кнопки чата */
-            buttonBg: '#27C1FE'    /* цвет фона кнопки чата */
-        }
-    };
-    window.ChatraGroupID = 'mrYcCnXtHyGfGSTeS';
-</script>
-    <!-- Chatra {literal} -->
-<script>
-    (function(d, w, c) {
-        w.ChatraID = 'TsJ4brcS72n2sQCkd';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
+    window.chatwootSettings = { position: 'right', type: 'standard' };
+    (function (d, t) {
+        var BASE_URL = "https://chat.proalab.com";
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/packs/js/sdk.js";
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+        g.onload = function () {
+            window.chatwootSDK.run({ websiteToken: 'YPTUEg1Puo9PqNMiptB9Mphr', baseUrl: BASE_URL });
         };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
+    })(document, "script");
 </script>
-<!-- /Chatra {/literal} -->
 
 </body>
 
